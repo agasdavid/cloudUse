@@ -1,0 +1,101 @@
+    1  clear
+    2  kubectl version
+    3  sudo kubectl version 
+    4  docker ps
+    5  sudo usermod -aG docker ubuntu
+    6  docker ps
+    7  exit
+    8  docker ps
+    9  vi .profile
+   10  ls
+   11  ls -l
+   12  vi .profile
+   13  cat .profile
+   14  export PATH=$PATH:/usr/bin/docker
+   15  kubectl version
+   16  kubectl get pods
+   17  sudo kubectl get pods
+   18  kubectl run frontend --image nginx
+   19  sudo kubectl run frontend --image nginx
+   20  curl -sfL https://get.k3s.io | sh -
+   21  mkdir -p ~/.kube
+   22  sudo chown $USER:$USER ~/.kube/config
+   23  export KUBECONFIG=~/.kube/config
+   24  kubectl get nodes
+   25  kubectl get pods
+   26  kubectl run frontend --image nginx
+   27  exit
+   28  kubectl get pods
+   29  kubectl get nodes
+   30  kubectl get pods
+   31  kubectl run frontend --image nginx
+   32  kubectl get pod
+   33  kubectl describe pod frontend
+   34  clear
+   35  cat >> nginx.yaml
+   36  vi nginx.yaml
+   37  rm nginx.yaml
+   38  cat >> nginx.yaml
+   39  vi nginx.yaml
+   40  kubectl apply -f nginx-deployment.yaml
+   41  kubectl apply -f nginx.yaml
+   42  vi nginx.yaml
+   43  kubectl get pods
+   44  kubectl get pod
+   45  docker ps
+   46  docker ps -a
+   47  ll
+   48  ll -l
+   49  clear
+   50  kubectl apply -f nginx-deployment.yaml
+   51  cat >> nginx.yaml
+   52  vi nginx.yaml
+   53  cat >> nginx.yaml
+   54  vi nginx.yaml
+   55  cat >> nginx.yaml
+   56  vi nginx.yaml
+   57  kubctl get pods
+   58  kubctl get pod
+   59  kubectl apply -f nginx-deployment.yaml
+   60  vi nginx.yaml
+   61  cat >> nginx.yaml
+   62  vi nginx.yaml
+   63  kubectl apply -f pod.yaml
+   64  kubctl get pods
+   65  rm nginx.yaml
+   66  cat >> nginx.yaml
+   67  kubectl apply -f nginx-deployment.yaml
+   68  rm nginx.yaml
+   69  cat >> nginx.yaml
+   70  vi nginx.yaml
+   71  kubectl apply -f nginx-deployment.yaml
+   72  rm nginx.yaml
+   73  cat >> nginx.yaml
+   74  kubectl apply -f nginx-de
+   75  kubectl apply -f nginx.yaml
+   76  kubctl get pods
+   77  kubctl get pod
+   78  kubectl apply -f nginx.yaml
+   79  kubctl get pods
+   80  kubectl get pods
+   81  kubectl get pod
+   82  kubctl get pods
+   83  kubectl apply -f nginx.yaml
+   84  clear
+   85  kubectl get pods
+   86  kubectl apply -f nginx.yaml
+   87  kubectl get pods
+   88  cat nginx.yaml
+   89  rm nginx.yaml
+   90  ls
+   91  kubectl get pod
+   92  kubectl delete pod frontend
+   93  kubectl get pod
+   94  kubectl get all
+   95  vi pod.yaml
+   96  cat >> pod.yaml
+   97  kubectl apply -f pod.yaml
+   98  vi pod.yaml
+   99  kubectl apply -f pod.yaml
+  100  history
+  101  history >> forjehro.txt
